@@ -4,6 +4,9 @@ using Newspaper_Reader_for_Austria.Services;
 
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
+using Windows.UI.ViewManagement;
+using Windows.UI;
+using Windows.ApplicationModel.Core;
 
 namespace Newspaper_Reader_for_Austria
 {
