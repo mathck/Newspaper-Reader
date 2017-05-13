@@ -17,7 +17,6 @@ namespace Newspaper_Reader_for_Austria.ViewModels
 
             SimpleIoc.Default.Register(() => _navigationService);
             Register<PivotViewModel, PivotPage>();
-            Register<MainViewModel, MainPage>();
             Register<NYTViewModel, NYTPage>();
             Register<derStandardViewModel, derStandardPage>();
             Register<PresseViewModel, PressePage>();
@@ -34,8 +33,6 @@ namespace Newspaper_Reader_for_Austria.ViewModels
         public derStandardViewModel derStandardViewModel => ServiceLocator.Current.GetInstance<derStandardViewModel>();
 
         public NYTViewModel NYTViewModel => ServiceLocator.Current.GetInstance<NYTViewModel>();
-
-        public MainViewModel MainViewModel => ServiceLocator.Current.GetInstance<MainViewModel>();
 
         public PivotViewModel PivotViewModel => ServiceLocator.Current.GetInstance<PivotViewModel>();
 

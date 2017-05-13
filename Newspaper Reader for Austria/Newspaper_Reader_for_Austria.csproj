@@ -119,7 +119,6 @@
     <Compile Include="Services\ThemeSelectorService.cs" />
     <Compile Include="ViewModels\derStandardViewModel.cs" />
     <Compile Include="ViewModels\HackerNewsViewModel.cs" />
-    <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\NYTViewModel.cs" />
     <Compile Include="ViewModels\PivotViewModel.cs" />
     <Compile Include="ViewModels\PresseViewModel.cs" />
@@ -130,9 +129,6 @@
     </Compile>
     <Compile Include="Views\HackerNewsPage.xaml.cs">
       <DependentUpon>HackerNewsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\NYTPage.xaml.cs">
       <DependentUpon>NYTPage.xaml</DependentUpon>
@@ -175,6 +171,7 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="Newspaper_Reader_for_Austria_TemporaryKey.pfx" />
+    <PRIResource Include="Strings\de-de\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -188,10 +185,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\HackerNewsPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

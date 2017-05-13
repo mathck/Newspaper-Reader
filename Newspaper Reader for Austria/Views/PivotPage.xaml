@@ -11,11 +11,6 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Pivot x:Uid="PivotPage">
-            <PivotItem x:Uid="PivotItem_Main">
-                <Frame>
-                    <views:MainPage/>
-                </Frame>
-            </PivotItem>
             <PivotItem x:Uid="PivotItem_NYT">
                 <Frame>
                     <views:NYTPage/>
